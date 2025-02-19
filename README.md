@@ -13,25 +13,6 @@ This is a **Playwright + Cucumber** test automation framework that supports mult
 
 ---
 
-## 📂 **Project Structure**
-playwright-cucumber-framework/ 
-│── 📁 config 
-│ │── test_config.js # Stores environment-specific configs 
-│── 📁 features/ 
-│ │── login.feature # Cucumber feature file 
-│── 📁 step_definitions/ 
-│ │── loginSteps.js # Cucumber step definitions 
-│── 📁 page_objects/ 
-│ │── loginPage.js # Page Object Model for login 
-│── 📁 selectors/ 
-│ │── login_elements.js # Element locators for login 
-│── cucumber.js # Cucumber config file 
-│── package.json # Project dependencies 
-│── playwright.config.js # Playwright configuration 
-│── README.md
-
----
-
 ## ⚙️ **Setup & Installation**
 ### 1️⃣ **Clone the Repository**
 ```sh
