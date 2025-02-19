@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "tests\\steps\\login.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4686865400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "tests\\steps\\login.step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2438147799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks the login button",
+            "match": {
+              "location": "tests\\steps\\login.step.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should be redirected to the dashboard",
+            "match": {
+              "location": "tests\\steps\\login.step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3142443199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]
